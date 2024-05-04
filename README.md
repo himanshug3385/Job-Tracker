@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Candidate Application Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This repository contains the codebase for a candidate application platform. The platform allows users to view job listings, filter jobs based on various criteria, and implement infinite scroll for a seamless browsing experience. The platform provides a user-friendly interface for viewing and applying for jobs.
 
-In the project directory, you can run:
 
-### `npm start`
+![image](https://github.com/himanshug3385/Job-Tracker/assets/85097442/d7dd5a20-8747-4cd8-9099-2ff15451379f)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Each job listing is displayed as a card containing the following information:
+- Job title
+- Company name
+- Location
+- Job description (limited with an option to expand)
+- Experience required
+- Apply button/link
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Filters
 
-### `npm test`
+Filters are implemented to allow users to refine job listings based on the following criteria:
+- Minimum experience
+- Company name
+- Location
+- Remote/on-site
+- Tech stack
+- Role
+- Minimum base pay
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+![image](https://github.com/himanshug3385/Job-Tracker/assets/85097442/f19571cf-22bb-493a-bf43-3ad3170ff0c9)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Infinite Scroll
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Infinite scroll is implemented to load additional job listings as the user scrolls down the page. The platform fetches and displays more jobs automatically without requiring the user to click on a "Load More" button.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+![image](https://github.com/himanshug3385/Job-Tracker/assets/85097442/6734c3db-200a-4bb2-8ef5-eec7e2a1b1ac)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Responsive Design
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The platform is designed to be responsive and works well on different screen sizes, including mobile devices (optional).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technology Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The following technology stack is used for this assignment:
+- ReactJs
+- Redux
+- CSS
+- Material UI
 
-## Learn More
+## How To Run the Project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To Run the project on your local machine, follow the below steps:
+- Download the source code, or clone in your local machine
+- Download necessary libraries of npm usin **npm install**
+- Run the code using the command **npm start**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to explore the codebase and contribute to the project! If you have any questions or suggestions, please don't hesitate to reach out. 
 
-### Code Splitting
+Thank you for your interest and contribution to the candidate application platform!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
